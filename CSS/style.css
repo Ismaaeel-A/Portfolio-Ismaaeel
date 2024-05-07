@@ -41,7 +41,6 @@ aside {
 padding-inline: 20px;
 margin-block: 100px;
 }
-/* 
-footer{text-align: center;
-}
- */
+
+.contact_icon{font-size: large;
+color: rgb(89, 254, 43);}
