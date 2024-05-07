@@ -27,6 +27,17 @@ section {
 }
 
 .portrait {
-    width: 50%;
-    height: 70%;
+    max-width: 70%;
+    max-height: 90%;
+    
+    box-shadow: 0 0 0px 2px white;
+}
+
+aside {
+    margin-inline: auto;
+}
+
+.aboutText , .portrait-box {
+padding-inline: 20px;
+margin-block: 100px;
 }
