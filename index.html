@@ -7,9 +7,12 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
-    <link rel= "stylesheet" href= "https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" >
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
     <link rel="stylesheet" href="CSS/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
     <title>Portfolio</title>
@@ -77,107 +80,276 @@
         </div>
     </nav>
 
-    <section class="container-fluid d-flex justify-content-center align-items-center landing">
+    <main class="container-fluid">
 
-    </section>
 
-    <section class="container-fluid row about">
-        <div class="col aboutText">
-            <h2>About</h2>
-            <h5>Who am I?</h5>
+        <section class=" d-flex justify-content-center align-items-start sec landing">
 
-            <p> Hi, I'm Ismaaeel Ahmed, a passionate and creative web designer with a love for crafting beautiful,
-                user-friendly digital experiences. 
-                My approach to web design is centered around understanding the needs of my clients and their users. I
-                take the time to listen, learn, and collaborate to ensure that every project meets its goals and exceeds
-                expectations. My expertise includes:
-                - Responsive web design and development
-                - User experience (UX) and user interface (UI) design
-                - Web accessibility and usability
-                - HTML, CSS, JavaScript, and various web development frameworks
-                - Content management systems (CMS) and e-commerce solutions
-                I'm constantly seeking new ways to improve my craft, staying up-to-date with the latest design trends,
-                technologies, and best practices. My passion for web design is matched only by my passion for delivering
-                exceptional results and building long-lasting relationships with my clients.
-                When I'm not designing or coding, you can find me [insert personal interest or hobby]. I'm excited to
-                share my work with you and explore how I can help bring your web design vision to life!
-                Feel free to customize this to fit your own voice, style, and experience! Good luck with your portfolio
-                and web design endeavors!</p>
-        </div>
+            <div class="text-center">
+                <div class="col d-flex justify-content-center">
+                    <img src="https://ismaaeel-a.github.io/allimages/Images/Profile.png" alt="portrait"
+                        class="portrait rounded-circle ">
+                </div>
+                <h2>Ismaa'eel Ahmed</h2>
+                <h4>Aspiring Developer</h4>
+            </div>
+        </section>
 
-        <aside class="container col">
+        <section class=" row sec about">
+            <div class="col aboutText">
+                <h2>About</h2>
+                <h5>Who am I?</h5>
+
+                <p> Hi, I'm Ismaaeel Ahmed, a passionate and creative web designer with a love for crafting beautiful,
+                    user-friendly digital experiences.
+                    My approach to web design is centered around understanding the needs of my clients and their users.
+                    I
+                    take the time to listen, learn, and collaborate to ensure that every project meets its goals and
+                    exceeds
+                    expectations. My expertise includes:
+                    - Responsive web design and development
+                    - User experience (UX) and user interface (UI) design
+                    - Web accessibility and usability
+                    - HTML, CSS, JavaScript, and various web development frameworks
+                    - Content management systems (CMS) and e-commerce solutions
+                    I'm constantly seeking new ways to improve my craft, staying up-to-date with the latest design
+                    trends,
+                    technologies, and best practices. My passion for web design is matched only by my passion for
+                    delivering
+                    exceptional results and building long-lasting relationships with my clients.
+                    When I'm not designing or coding, you can find me [insert personal interest or hobby]. I'm excited
+                    to
+                    share my work with you and explore how I can help bring your web design vision to life!
+                    Feel free to customize this to fit your own voice, style, and experience! Good luck with your
+                    portfolio
+                    and web design endeavors!</p>
+            </div>
+
+        </section>
+
+        <section class="sec">
+            <!-- education and experience -->
+            <h2>Education and Experience</h2>
+
             <div class="row">
-              <div class="col d-flex justify-content-center portrait-box">
-                <img src="https://ismaaeel-a.github.io/allimages/Images/Portrait.jpg" alt="portrait"  class="rounded portrait">
-              </div>
-            </div>
-        </aside>
-
-    </section>
-
-    <section class="container-fluid">
-        <h2>Education</h2>
-
-        <div class="row">
-            <div class="col">
-                <div>
-                    <h4>High School</h4>
-                    <p>I matriculated in 2022, with a Bachellors pass with Pure math, physics, IT (information technology) and EGD (Engineering and Graphic Design) being my subject course. Delphi was the coding Language we used in combination with SQL (where necessary)</p>
+                <div class="col">
+                    <div>
+                        <h4>High School</h4>
+                        <p>I matriculated in 2022, with a Bachellors pass with Pure math, physics, IT (information
+                            technology) and EGD (Engineering and Graphic Design) being my subject course. Delphi was the
+                            coding Language we used in combination with SQL (where necessary)</p>
+                    </div>
                 </div>
-            </div>
-            <div class="col">
-                <div>
-                    <h4>Post-School</h4>
-                    <p>After matric I took a gap year to do islamic studies under Sheikh Ismail Londt at the DU Centre.</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col">
-                <div>
-                    <h4>Current endeavors</h4>
-                    <p>I am currently studying at Life Choices Academy in order to become a fullstack developer.</p>
+                <div class="col">
+                    <div>
+                        <h4>Post-School</h4>
+                        <p>After matric I took a gap year to do islamic studies under Sheikh Ismail Londt at the DU
+                            Centre.
+                        </p>
+                    </div>
                 </div>
             </div>
 
-            <div class="col">
-                <div>
-                    <h4>Self-study</h4>
-                    <p>I have been doing self study work on HTML and CSS in order to improve my skills and proficiency with them.</p>
+            <div class="row">
+                <div class="col">
+                    <div>
+                        <h4>Current endeavors</h4>
+                        <p>I am currently studying at Life Choices Academy in order to become a fullstack developer.</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div>
+                        <h4>Self-study</h4>
+                        <p>I have been doing self study work on HTML and CSS in order to improve my skills and
+                            proficiency
+                            with them.</p>
+                    </div>
                 </div>
             </div>
-        </div>
 
-    </section>
+        </section>
 
-    <section class="container-fluid">
-        <h2>Skills</h2>
-    </section>
+        <section class="sec text-center text-light">
+            <!-- skills -->
+            <h2>Skills</h2>
+            <div class="row g-3">
 
-    <section class="container-fluid">
-        <h2>Experience</h2>
-    </section>
+                <div class="col-md-6">
+                    <div class="d-flex flex-column align-content-center bg-success">
+                        <h3>HTML</h3>
+                        <p>Level: Novice+</p>
+                        <p>I have </p>
+                    </div>
+                </div>
 
-    <section class="container-fluid">
-        <h2>Projects</h2>
-    </section>
+                <div class="col-md-6">
+                    <div class="d-flex flex-column bg-success">
+                        <h3 class="text-light">CSS</h3>
+                        <p class="text-light">Level: Intemediate</p>
+                        <p>a</p>
+                    </div>
+                </div>
 
-    <section class="container-fluid">
-        <h2>Testimonials</h2>
-    </section>
+                <div class="col-md-6">
+                    <div class="d-flex flex-column bg-success">
+                        <h3 class="text-light">JS</h3>
+                        <p class="text-light">Level: Beginner</p>
+                        <p>a</p>
+                    </div>
+                </div>
 
-    <section class="container-fluid">
-        <h2>Contact Me</h2>
-        <div><i class="las la-envelope contact_icon"></i></div>
-        <div><i class="las la-phone contact_icon"></i></div>
-        <div><i class="lab la-github contact_icon"></i></div>
+                <div class="col-md-6">
+                    <div class="d-flex flex-column bg-success">
+                        <h3>Graphic Design</h3>
+                        <p>Level: Novice</p>
+                        <p>a</p>
+                    </div>
+                </div>
 
-    </section>
+            </div>
+        </section>
 
-<footer class="container-fluid">
-    <p class="text-sm-center">Copyright &copy;2024</p>
-</footer>
+        <section class="sec text-center text-light">
+            <!-- projects -->
+            <h2>Projects</h2>
+
+            <div class="row gy-5">
+
+                <div class="col-md-4" data-aos="fade-right">
+                    <div class="d-flex justify-content-center">
+                        <div class="card" >
+                            <img src="https://ismaaeel-a.github.io/allimages/Images/plc.png" class="card-img-top"
+                                alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Keyboard</h5>
+                                <p class="card-text">A keyboard made using HTML and CSS with @keyframe animations.</p>
+                                <a href="#" class="btn btn-success">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4" data-aos="fade-right">
+                    <div class="d-flex justify-content-center">
+                        <div class="card">
+                            <img src="https://ismaaeel-a.github.io/allimages/Images/plc.png" class="card-img-top"
+                                alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Calculator</h5>
+                                <p class="card-text">A non-functioning calulator made using HTML and CSS.</p>
+                                <a href="#" class="btn btn-success">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4" data-aos="fade-right">
+                    <div class="d-flex justify-content-center">
+                        <div class="card">
+                            <img src="https://ismaaeel-a.github.io/allimages/Images/plc.png" class="card-img-top"
+                                alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of the card's content.</p>
+                                <a href="#" class="btn btn-success">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4" data-aos="fade-right">
+                    <div class="d-flex justify-content-center">
+                        <div class="card">
+                            <img src="https://ismaaeel-a.github.io/allimages/Images/plc.png" class="card-img-top"
+                                alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of the card's content.</p>
+                                <a href="#" class="btn btn-success">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4" data-aos="fade-right">
+                    <div class="d-flex justify-content-center">
+                        <div class="card">
+                            <img src="https://ismaaeel-a.github.io/allimages/Images/plc.png" class="card-img-top"
+                                alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of the card's content.</p>
+                                <a href="#" class="btn btn-success">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4" data-aos="fade-right">
+                    <div class="d-flex justify-content-center">
+                        <div class="card">
+                            <img src="https://ismaaeel-a.github.io/allimages/Images/plc.png" class="card-img-top"
+                                alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of the card's content.</p>
+                                <a href="#" class="btn btn-success">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="sec">
+            <!-- testimonials -->
+            <h2>Testimonials</h2>
+        </section>
+
+        <section class="row sec">
+
+            <div class="col">
+
+                <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8"
+                    action="https://formspree.io/f/{form_id}" method="post" class"formspree">
+                    <fieldset id="fs-frm-inputs">
+                        <label for="full-name">Full Name</label>
+                        <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+                        <label for="email-address">Email Address</label>
+                        <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld"
+                            required="">
+                        <label for="message">Message</label>
+                        <textarea rows="5" name="message" id="message"
+                            placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus."
+                            required=""></textarea>
+                        <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                    </fieldset>
+                    <input type="submit" value="Submit">
+                </form>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="container-fluid">
+        <p class="text-sm-center">Copyright &copy;2024 - Ismaa'eel Ahmed</p>
+    </footer>
+
+
+
+<script>
+  AOS.init();
+</script>
 
 </body>
 
