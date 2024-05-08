@@ -41,35 +41,31 @@
                         <!-- ----------------------------------- Links ----------------------------------- -->
                         <hr>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="#about">About</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Education</a>
+                            <a class="nav-link" href="#education">Education/ Experience</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Skills</a>
+                            <a class="nav-link" href="#skills">Skills</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Experience</a>
+                            <a class="nav-link" href="#projects">Projects</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Projects</a>
+                            <a class="nav-link" href="#testimonials">Testimonials</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Testimonials</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Me</a>
+                            <a class="nav-link" href="#contact">Contact Me</a>
                         </li>
                         <!-- ------------------------------------------------------------------------------- -->
 
@@ -83,7 +79,7 @@
     <main class="container-fluid">
 
 
-        <section class=" d-flex justify-content-center align-items-start sec landing">
+        <section class=" d-flex justify-content-center align-items-center sec landing" id="home">
 
             <div class="text-center">
                 <div class="col d-flex justify-content-center">
@@ -95,7 +91,7 @@
             </div>
         </section>
 
-        <section class=" row sec about">
+        <section class=" row sec text-light about" id="about">
             <div class="col aboutText">
                 <h2>About</h2>
                 <h5>Who am I?</h5>
@@ -127,12 +123,12 @@
 
         </section>
 
-        <section class="sec">
+        <section class="sec text-light" id="education">
             <!-- education and experience -->
             <h2>Education and Experience</h2>
 
-            <div class="row">
-                <div class="col">
+            <div class="row"><!-- education -->
+                <div class="col-12">
                     <div>
                         <h4>High School</h4>
                         <p>I matriculated in 2022, with a Bachellors pass with Pure math, physics, IT (information
@@ -140,7 +136,7 @@
                             coding Language we used in combination with SQL (where necessary)</p>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-12">
                     <div>
                         <h4>Post-School</h4>
                         <p>After matric I took a gap year to do islamic studies under Sheikh Ismail Londt at the DU
@@ -151,14 +147,14 @@
             </div>
 
             <div class="row">
-                <div class="col">
+                <div class="col-12">
                     <div>
                         <h4>Current endeavors</h4>
                         <p>I am currently studying at Life Choices Academy in order to become a fullstack developer.</p>
                     </div>
                 </div>
 
-                <div class="col">
+                <div class="col-12">
                     <div>
                         <h4>Self-study</h4>
                         <p>I have been doing self study work on HTML and CSS in order to improve my skills and
@@ -168,15 +164,24 @@
                 </div>
             </div>
 
+            <div class="row my-5">
+                <div class="col-12">
+                    <div>
+                        <h2>Experiences</h2>
+                        <p>i was in situations</p>
+                    </div>
+                </div>
+            </div>
+
         </section>
 
-        <section class="sec text-center text-light">
+        <section class="sec text-center text-light" id="skills">
             <!-- skills -->
             <h2>Skills</h2>
             <div class="row g-3">
 
                 <div class="col-md-6">
-                    <div class="d-flex flex-column align-content-center bg-success">
+                    <div class="d-flex flex-column align-content-center bg-success skillb">
                         <h3>HTML</h3>
                         <p>Level: Novice+</p>
                         <p>I have </p>
@@ -184,7 +189,7 @@
                 </div>
 
                 <div class="col-md-6">
-                    <div class="d-flex flex-column bg-success">
+                    <div class="d-flex flex-column bg-success skillb ">
                         <h3 class="text-light">CSS</h3>
                         <p class="text-light">Level: Intemediate</p>
                         <p>a</p>
@@ -192,7 +197,7 @@
                 </div>
 
                 <div class="col-md-6">
-                    <div class="d-flex flex-column bg-success">
+                    <div class="d-flex flex-column bg-success skillb">
                         <h3 class="text-light">JS</h3>
                         <p class="text-light">Level: Beginner</p>
                         <p>a</p>
@@ -200,7 +205,7 @@
                 </div>
 
                 <div class="col-md-6">
-                    <div class="d-flex flex-column bg-success">
+                    <div class="d-flex flex-column bg-success skillb">
                         <h3>Graphic Design</h3>
                         <p>Level: Novice</p>
                         <p>a</p>
@@ -210,7 +215,7 @@
             </div>
         </section>
 
-        <section class="sec text-center text-light">
+        <section class="sec text-center text-light" id="projects">
             <!-- projects -->
             <h2>Projects</h2>
 
@@ -311,17 +316,18 @@
             </div>
         </section>
 
-        <section class="sec">
+        <section class="sec" id="testimonials">
             <!-- testimonials -->
             <h2>Testimonials</h2>
         </section>
 
-        <section class="row sec">
+        <section class="row sec" id="contact">
 
             <div class="col">
 
                 <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8"
                     action="https://formspree.io/f/{form_id}" method="post" class"formspree">
+
                     <fieldset id="fs-frm-inputs">
                         <label for="full-name">Full Name</label>
                         <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
@@ -334,6 +340,7 @@
                             required=""></textarea>
                         <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
                     </fieldset>
+
                     <input type="submit" value="Submit">
                 </form>
 
@@ -341,8 +348,8 @@
         </section>
     </main>
 
-    <footer class="container-fluid">
-        <p class="text-sm-center">Copyright &copy;2024 - Ismaa'eel Ahmed</p>
+    <footer class="container-fluid text-light ">
+        <p class="text-sm-center my-3">Copyright &copy;2024 - Ismaa'eel Ahmed</p>
     </footer>
 
 
