@@ -97,8 +97,4 @@ i {
     font-size: x-large;
 }
 
-input,
-textarea {
-    width: 80%;
-    margin-inline: auto;
-}
+.contact{    border-bottom: 2px solid white;}
