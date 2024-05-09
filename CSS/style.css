@@ -43,8 +43,7 @@ aside {
     margin-inline: auto;
 }
 
-.aboutText,
-.portrait-box {
+.aboutText {
     padding-inline: 20px;
     margin-block: 100px;
 }
@@ -54,37 +53,37 @@ aside {
     color: rgb(89, 254, 43);
 }
 
-.contactMe {
-    background-color: aqua;
-}
-
 .sec {
     min-height: 100vh;
     height: auto;
     border-bottom: 2px solid white;
 }
 
-skill_list {
-    border-radius: 30px;
-    background-color: aqua;
-}
-
 .card {
-    box-shadow: 0 0 0 4px #685D79;
+    /*   box-shadow: 0 0 3px 4px #bdbcc0; */
     background-color: rgb(62, 62, 62);
-    /*     box-shadow: 0 0 5px 3px rgb(42, 126, 67); */
     width: 18rem;
-    border: 4px solid #685D79;
+    border: 10px solid #4e3474;
 
     transition: transform .5s;
 
-
     &:hover {
         transform: scale(0.9);
-
-
     }
 }
+
+.Tportrait {
+    aspect-ratio: 1/1;
+    width: 200px;
+    margin-bottom: 40px;
+
+
+}
+
+.bob {
+    margin-inline: auto;
+}
+
 
 .skillb {
     transition: transform 0.5s, border-bottom 0.5s;
@@ -98,3 +97,8 @@ i {
     font-size: x-large;
 }
 
+input,
+textarea {
+    width: 80%;
+    margin-inline: auto;
+}
