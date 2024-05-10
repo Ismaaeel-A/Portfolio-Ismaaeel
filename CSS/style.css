@@ -13,7 +13,7 @@
 }
 
 body {
-
+    font-family: "Josefin Sans", sans-serif;
     background-color: var(--background);
 }
 
@@ -52,11 +52,6 @@ aside {
 .aboutText {
     padding-inline: 20px;
     margin-block: 100px;
-}
-
-.contact_icon {
-    font-size: large;
-    color: rgb(89, 254, 43);
 }
 
 .sec {
@@ -151,3 +146,5 @@ button {
 }
 
 input, textarea {box-shadow: 3px 4px 5px rgb(71, 71, 71);}
+
+a>i {font-size: xx-large;}
