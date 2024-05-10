@@ -7,9 +7,9 @@
 }
 
 :root {
-    --primary: #E0D8B0;
-    --background: #FCFFE7;
-    --accent: #DEA057;
+    --primary: #6D6053;
+    --background: #BFA88A;
+    --accent: #CE9461;
 
 }
 
@@ -23,7 +23,9 @@ body {
 }
 
 .offcanvas {
-    background: var(--primary) /* #685D79 */;
+    background: var(--primary)
+        /* #685D79 */
+    ;
 }
 
 .landing {
@@ -124,4 +126,35 @@ i {
     border: 3px solid rgb(0, 0, 0);
 }
 
-#testimonials{border-bottom: rgb(0, 0, 0);}
+#testimonials {
+    border-bottom: rgb(0, 0, 0);
+}
+
+#contact {
+    border-top: 2px solid black;
+}
+
+footer {
+    border-top: 2px solid black;
+}
+
+textarea {
+    margin-inline: auto;
+    width: 18rem;
+    height: 6rem;
+    border: none;
+    background-color: var(--primary);
+    color: var(--background);
+}
+
+input {
+    width: 18rem;
+    border: none;
+    background-color: var(--primary);
+    color: var(--background);
+}
+
+a,
+button {
+    color: var(--primary);
+}
