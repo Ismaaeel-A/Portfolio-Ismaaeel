@@ -6,12 +6,24 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary: #E0D8B0;
+    --background: #FCFFE7;
+    --accent: #DEA057;
+
+}
+
+body {
+
+    background-color: var(--background);
+}
+
 .navbar {
-    background: black;
+    background: var(--primary);
 }
 
 .offcanvas {
-    background: #685D79;
+    background: var(--primary) /* #685D79 */;
 }
 
 .landing {
@@ -56,20 +68,26 @@ aside {
 .sec {
     min-height: 100vh;
     height: auto;
-    border-bottom: 2px solid white;
+    /*     border-bottom: 2px solid white; */
 }
 
 .card {
     /*   box-shadow: 0 0 3px 4px #bdbcc0; */
     background-color: rgb(62, 62, 62);
     width: 18rem;
-    border: 10px solid #4e3474;
+    border: 10px solid var(--accent)
+        /* #4e3474 */
+    ;
 
     transition: transform .5s;
 
     &:hover {
         transform: scale(0.9);
     }
+}
+
+.card-body {
+    background-color: var(--primary);
 }
 
 .Tportrait {
@@ -86,6 +104,7 @@ aside {
 
 
 .skillb {
+    background-color: var(--accent);
     transition: transform 0.5s, border-bottom 0.5s;
 
     &:hover {
@@ -100,3 +119,9 @@ i {
 .contact {
     border-bottom: 2px solid white;
 }
+
+#projects {
+    border: 3px solid rgb(0, 0, 0);
+}
+
+#testimonials{border-bottom: rgb(0, 0, 0);}
